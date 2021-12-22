@@ -1,0 +1,94 @@
+section{
+    width : 600px;
+    background-color : black;
+    height : 800px;
+    margin : 0 auto;
+    display: flex;
+    flex-wrap : wrap;
+    padding : 10px;
+    border-radius:15px;
+    box-shadow : 10px 10px 30px black;
+    margin-top : 30px;
+      
+  }
+  
+  div {
+    box-sizing : border-box;
+    background-color : #101D41;
+    width : 150px;
+    height : 160px;
+    border : 2px solid black;
+    position : relative;
+    transition-duration:0.3s;
+  }
+  
+  div:hover{
+    background-color : #01264D;
+    cursor: pointer;
+  }
+  
+  h1{
+    color : white;
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    padding:0;
+    margin:0;
+    transform:translate(-50%, -50%);
+    font-size : 3.5em;
+  }
+  
+  
+  /* Affichage du résultat */
+  
+  .result{
+    width: 100%;
+    background-color : gray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor:default;
+    display:flex;
+    justify-content:flex-end
+  }
+  
+  .remove{
+    box-sizing: border-box;
+    background-color:gray;
+    border:none;
+    order:2;
+    width : 149px;
+    
+    border-left:2px solid black;
+  }
+  
+  
+  .remove:hover{
+    background-color:gray;
+    order:2;
+    width : 149px;
+    box-sizing: border-box;
+  }
+  
+  .calc{
+    box-sizing: border-box;
+    background-color:gray;
+    border:none;
+    order:1;
+    width : 450px;
+    
+    border-right:2px solid black;
+  }
+  
+  .calc:hover{
+    box-sizing: border-box;
+    background-color:gray;
+    border:none;
+    order:1;
+    width : 450px;
+    
+    border-right:2px solid black;
+  }
+  
+  
+  
